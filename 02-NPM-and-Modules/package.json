@@ -1,0 +1,20 @@
+{
+  "name": "02-npm-and-modules",
+  "version": "1.0.0",
+  "description": "Latihan modul 2 - NPM dan Modules",
+  "main": "1-built-in-modules.js",
+  "scripts": {
+    "halo": "echo \"Halo! Ini dijalankan dari npm script!\"",
+    "start": "node 1-built-in-modules.js"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "playground"
+  ],
+  "author": "Pengajar",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}

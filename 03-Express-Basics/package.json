@@ -1,0 +1,20 @@
+{
+  "name": "03-express-basics",
+  "version": "1.0.0",
+  "description": "Latihan modul 3 - Dasar Express.js",
+  "main": "1-basic-server.js",
+  "scripts": {
+    "start": "node 1-basic-server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "web",
+    "playground"
+  ],
+  "author": "Pengajar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
