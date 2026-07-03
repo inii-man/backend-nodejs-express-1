@@ -3,7 +3,7 @@
 Selamat datang di repositori pembelajaran **Node.js, NPM, dan Express.js**. 
 Repositori ini dirancang khusus untuk keperluan *hands-on* atau praktek langsung, dimana setiap kodenya dibuat sesederhana mungkin dilengkapi dengan penjelasan pada setiap baris kodenya (dalam Bahasa Indonesia).
 
-Materi ini disusun ke dalam 3 bagian utama yang berurutan. Sangat disarankan untuk mempelajarinya dari folder `01` hingga `03`.
+Materi ini disusun ke dalam 4 bagian utama yang berurutan. Sangat disarankan untuk mempelajarinya dari folder `01` hingga `04`.
 
 ## 📂 Struktur Materi
 
@@ -13,6 +13,8 @@ Materi ini disusun ke dalam 3 bagian utama yang berurutan. Sangat disarankan unt
    Membahas apa itu NPM, cara kerja `package.json`, cara menggunakan modul bawaan Node.js, serta cara membuat modul buatan sendiri.
 3. **[03-Express-Basics](./03-Express-Basics)**
    Membahas cara membuat server web menggunakan framework **Express.js**, metode Routing, serta pemrosesan Request dan Response.
+4. **[04-Auto-Restart-Nodemon](./04-Auto-Restart-Nodemon)**
+   Membahas cara me-*restart* server secara otomatis setiap kali ada perubahan kode menggunakan *package* tambahan seperti **nodemon**.
 
 ---
 
@@ -48,6 +50,6 @@ Secara umum, file JavaScript berekstensi `.js` dapat dijalankan menggunakan peri
    node 1-es6-basics.js
    ```
 
-*Catatan: Pada folder 02 dan 03, Anda mungkin perlu menginstal package pihak ketiga (`node_modules`) terlebih dahulu menggunakan perintah `npm install` di dalam folder tersebut sebelum menjalankan kodenya.*
+*Catatan: Pada folder 02, 03, dan 04 Anda mungkin perlu menginstal package pihak ketiga (`node_modules`) terlebih dahulu menggunakan perintah `npm install` di dalam folder tersebut sebelum menjalankan kodenya.*
 
 Selamat mencoba dan mengajar! 🎉

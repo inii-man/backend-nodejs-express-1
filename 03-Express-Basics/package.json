@@ -4,7 +4,8 @@
   "description": "Latihan modul 3 - Dasar Express.js",
   "main": "1-basic-server.js",
   "scripts": {
-    "start": "node 1-basic-server.js"
+    "start": "node 1-basic-server.js",
+    "dev": "node --watch 1-basic-server.js"
   },
   "keywords": [
     "nodejs",

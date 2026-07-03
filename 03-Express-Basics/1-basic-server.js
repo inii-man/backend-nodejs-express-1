@@ -18,9 +18,9 @@ const port = 3000;
 app.get('/', (req, res) => {
     // req = Request (Berisi informasi tentang siapa & apa yang diminta user)
     // res = Response (Kotak pos yang akan kita kirim kembali ke user)
-    
+
     // Kita mengirim teks sederhana ke browser
-    res.send('Halo Dunia! Selamat Datang di Server Express Pertama Saya! 🚀');
+    res.send('Halo Dunia! Selamat Datang di Server Express Pertama! 🚀');
 });
 
 // 4. Nyalakan server agar ia terus mendengarkan permintaan di port tertentu
